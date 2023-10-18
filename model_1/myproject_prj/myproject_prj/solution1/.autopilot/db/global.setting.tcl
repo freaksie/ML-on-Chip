@@ -41,14 +41,14 @@ set SCTraceFileFormat vcd
 set SCTraceOption all
 set TargetInfo xc7vx485t:ffg1761:-2
 set SourceFiles {sc {} c ../../firmware/myproject.cpp}
-set SourceFlags {sc {} c {{ -std=c++0x}}}
+set SourceFlags {sc {} c -std=c++0x}
 set DirectiveFile /home/neelvora/Projects/Quantum/model_1/myproject_prj/myproject_prj/solution1/solution1.directive
-set TBFiles {verilog {../../tb_data ../../firmware/weights ../../myproject_test.cpp} bc {../../tb_data ../../firmware/weights ../../myproject_test.cpp} sc {../../tb_data ../../firmware/weights ../../myproject_test.cpp} vhdl {../../tb_data ../../firmware/weights ../../myproject_test.cpp} c {} cas {../../tb_data ../../firmware/weights ../../myproject_test.cpp}}
+set TBFiles {verilog {../../myproject_test.cpp ../../firmware/weights ../../tb_data} bc {../../myproject_test.cpp ../../firmware/weights ../../tb_data} vhdl {../../myproject_test.cpp ../../firmware/weights ../../tb_data} sc {../../myproject_test.cpp ../../firmware/weights ../../tb_data} cas {../../myproject_test.cpp ../../firmware/weights ../../tb_data} c {}}
 set SpecLanguage C
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
 set TVOutFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
-set TBTops {verilog {} bc {} sc {} vhdl {} c {} cas {}}
-set TBInstNames {verilog {} bc {} sc {} vhdl {} c {} cas {}}
+set TBTops {verilog {} bc {} vhdl {} sc {} cas {} c {}}
+set TBInstNames {verilog {} bc {} vhdl {} sc {} cas {} c {}}
 set XDCFiles {}
 set ExtraGlobalOptions {"area_timing" 1 "clock_gate" 1 "impl_flow" map "power_gate" 0}
 set TBTVFileNotFound {}
