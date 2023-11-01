@@ -1,0 +1,52 @@
+Backend: Vivado
+ClockPeriod: 5
+HLSConfig:
+  LayerName:
+    HiddenLayer1:
+      Precision:
+        bias: fixed<32,18>
+        result: fixed<32,18>
+        weight: fixed<32,18>
+      Trace: false
+    HiddenLayer1_relu:
+      Precision:
+        result: fixed<32,18>
+      Trace: false
+    HiddenLayer2:
+      Precision:
+        bias: fixed<32,18>
+        result: fixed<32,18>
+        weight: fixed<32,18>
+      Trace: false
+    HiddenLayer2_relu:
+      Precision:
+        result: fixed<32,18>
+      Trace: false
+    OuputLayer:
+      Precision:
+        bias: fixed<32,18>
+        result: fixed<32,18>
+        weight: fixed<32,18>
+      Trace: false
+    OuputLayer_sigmoid:
+      Precision:
+        result: fixed<32,18>
+      Trace: false
+    input_2:
+      Precision:
+        result: fixed<32,18>
+      Trace: false
+  Model:
+    BramFactor: 1000000000
+    Precision: fixed<32,18>
+    ReuseFactor: 1
+    Strategy: Latency
+    TraceOutput: false
+IOType: io_parallel
+InputData: ../Data/x_test.npy
+KerasModel: !keras_model '../tmp/lbnl/keras_model.h5'
+OutputDir: ../tmp/lbnl
+OutputPredictions: ../Data/y_test.npy
+Part: xc7vx485tffg1761-2
+ProjectName: myproject
+Stamp: 8B3b2a67

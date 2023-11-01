@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <simLog>
+        <logs message="ERROR: [COSIM 212-331] Aborting co-simulation: C simulation failed, compilation errors.&#xA;command 'ap_source' returned error code&#xA;    while executing&#xA;&quot;source /home/neelvora/Projects/Quantum/model_1/lbnl/myproject_prj/solution1/cosim.tcl&quot;&#xA;    invoked from within&#xA;&quot;hls::main /home/neelvora/Projects/Quantum/model_1/lbnl/myproject_prj/solution1/cosim.tcl&quot;&#xA;    (&quot;uplevel&quot; body line 1)&#xA;    invoked from within&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xA;    invoked from within&#xA;&quot;hls_proc $argv&quot;&#xA;" projectName="myproject_prj" solutionName="solution1" date="2023-10-23T14:47:52.536-0700"/>
+        <logs message="ERROR: [COSIM 212-321] EXE file generate failed." projectName="myproject_prj" solutionName="solution1" date="2023-10-23T14:47:52.533-0700"/>
+        <logs message="ERROR: [COSIM 212-321] EXE file generate failed." projectName="myproject_prj" solutionName="solution1" date="2023-10-23T14:47:52.531-0700"/>
+        <logs message="ERROR: [COSIM 212-317] C++ compile error." projectName="myproject_prj" solutionName="solution1" date="2023-10-23T14:47:52.527-0700"/>
+      </simLog>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <simLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>
