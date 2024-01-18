@@ -74916,25 +74916,25 @@ template <typename T, unsigned N> struct array {
 # 40 "/opt/Xilinx/Vivado/2018.3/tps/lnx64/gcc-6.2.0/include/c++/6.2.0/cstdio" 3
 # 9 "/home/neelvora/Projects/Quantum/tmp/lbnl/firmware/defines.h" 2
 # 20 "/home/neelvora/Projects/Quantum/tmp/lbnl/firmware/defines.h"
-typedef ap_fixed<32,18> input_t;
-typedef ap_fixed<32,18> model_default_t;
-typedef ap_fixed<32,18> layer2_t;
-typedef ap_fixed<32,18> hiddenlayer1_weight_t;
-typedef ap_fixed<32,18> hiddenlayer1_bias_t;
+typedef ap_fixed<32,32> input_t;
+typedef ap_fixed<18,4> model_default_t;
+typedef ap_fixed<18,4> layer2_t;
+typedef ap_fixed<18,4> hiddenlayer1_weight_t;
+typedef ap_fixed<18,4> hiddenlayer1_bias_t;
 typedef ap_uint<1> layer2_index;
-typedef ap_fixed<32,18> layer3_t;
+typedef ap_fixed<18,4> layer3_t;
 typedef ap_fixed<18,8> HiddenLayer1_relu_table_t;
-typedef ap_fixed<32,18> layer4_t;
-typedef ap_fixed<32,18> hiddenlayer2_weight_t;
-typedef ap_fixed<32,18> hiddenlayer2_bias_t;
+typedef ap_fixed<18,4> layer4_t;
+typedef ap_fixed<18,4> hiddenlayer2_weight_t;
+typedef ap_fixed<18,4> hiddenlayer2_bias_t;
 typedef ap_uint<1> layer4_index;
-typedef ap_fixed<32,18> layer5_t;
+typedef ap_fixed<18,4> layer5_t;
 typedef ap_fixed<18,8> HiddenLayer2_relu_table_t;
-typedef ap_fixed<32,18> layer6_t;
-typedef ap_fixed<32,18> ouputlayer_weight_t;
-typedef ap_fixed<32,18> ouputlayer_bias_t;
+typedef ap_fixed<18,4> layer6_t;
+typedef ap_fixed<18,4> ouputlayer_weight_t;
+typedef ap_fixed<18,4> ouputlayer_bias_t;
 typedef ap_uint<1> layer6_index;
-typedef ap_fixed<32,18> result_t;
+typedef ap_fixed<18,4> result_t;
 typedef ap_fixed<18,8> OuputLayer_sigmoid_table_t;
 # 9 "/home/neelvora/Projects/Quantum/tmp/lbnl/firmware/myproject.h" 2
 

@@ -10,7 +10,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 97 \
+    id 28 \
     name input_2_V \
     type other \
     dir I \
@@ -25,7 +25,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 98 \
+    id 29 \
     name layer7_out_0_V \
     type other \
     dir O \
@@ -33,7 +33,7 @@ eval "cg_default_interface_gen_dc { \
     sync_rst true \
     corename dc_layer7_out_0_V \
     op interface \
-    ports { layer7_out_0_V { O 32 vector } layer7_out_0_V_ap_vld { O 1 bit } } \
+    ports { layer7_out_0_V { O 18 vector } layer7_out_0_V_ap_vld { O 1 bit } } \
 } "
 }
 

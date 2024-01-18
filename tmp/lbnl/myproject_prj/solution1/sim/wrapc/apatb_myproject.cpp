@@ -1,5 +1,5 @@
 // ==============================================================
-// File generated on Tue Oct 31 15:29:59 PDT 2023
+// File generated on Wed Nov 15 11:42:16 PST 2023
 // Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
 // SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
 // IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
@@ -88,12 +88,12 @@ class INTER_TCL_FILE {
 };
 
 extern void myproject (
-ap_fixed<32, 18, (ap_q_mode) 5, (ap_o_mode)3, 0> input_2[2],
-ap_fixed<32, 18, (ap_q_mode) 5, (ap_o_mode)3, 0> layer7_out[1]);
+ap_fixed<32, 32, (ap_q_mode) 5, (ap_o_mode)3, 0> input_2[2],
+ap_fixed<18, 4, (ap_q_mode) 5, (ap_o_mode)3, 0> layer7_out[1]);
 
 void AESL_WRAP_myproject (
-ap_fixed<32, 18, (ap_q_mode) 5, (ap_o_mode)3, 0> input_2[2],
-ap_fixed<32, 18, (ap_q_mode) 5, (ap_o_mode)3, 0> layer7_out[1])
+ap_fixed<32, 32, (ap_q_mode) 5, (ap_o_mode)3, 0> input_2[2],
+ap_fixed<18, 4, (ap_q_mode) 5, (ap_o_mode)3, 0> layer7_out[1])
 {
 	refine_signal_handler();
 	fstream wrapc_switch_file_token;
@@ -120,7 +120,7 @@ ap_fixed<32, 18, (ap_q_mode) 5, (ap_o_mode)3, 0> layer7_out[1])
 		{
 			aesl_fh.read(AUTOTB_TVOUT_PC_layer7_out_0_V, AESL_token); // data
 
-			sc_bv<32> *layer7_out_0_V_pc_buffer = new sc_bv<32>[1];
+			sc_bv<18> *layer7_out_0_V_pc_buffer = new sc_bv<18>[1];
 			int i = 0;
 
 			while (AESL_token != "[[/transaction]]")
@@ -189,35 +189,35 @@ ap_fixed<32, 18, (ap_q_mode) 5, (ap_o_mode)3, 0> layer7_out[1])
 			{
 				// RTL Name: layer7_out_0_V
 				{
-					// bitslice(31, 0)
+					// bitslice(17, 0)
 					// {
-						// celement: layer7_out.V(31, 0)
+						// celement: layer7_out.V(17, 0)
 						// {
-							sc_lv<32>* layer7_out_V_lv0_0_0_2 = new sc_lv<32>[1];
+							sc_lv<18>* layer7_out_V_lv0_0_0_2 = new sc_lv<18>[1];
 						// }
 					// }
 
-					// bitslice(31, 0)
+					// bitslice(17, 0)
 					{
 						int hls_map_index = 0;
-						// celement: layer7_out.V(31, 0)
+						// celement: layer7_out.V(17, 0)
 						{
 							// carray: (0) => (0) @ (2)
 							for (int i_0 = 0; i_0 <= 0; i_0 += 2)
 							{
 								if (&(layer7_out[0]) != NULL) // check the null address if the c port is array or others
 								{
-									layer7_out_V_lv0_0_0_2[hls_map_index].range(31, 0) = sc_bv<32>(layer7_out_0_V_pc_buffer[hls_map_index].range(31, 0));
+									layer7_out_V_lv0_0_0_2[hls_map_index].range(17, 0) = sc_bv<18>(layer7_out_0_V_pc_buffer[hls_map_index].range(17, 0));
 									hls_map_index++;
 								}
 							}
 						}
 					}
 
-					// bitslice(31, 0)
+					// bitslice(17, 0)
 					{
 						int hls_map_index = 0;
-						// celement: layer7_out.V(31, 0)
+						// celement: layer7_out.V(17, 0)
 						{
 							// carray: (0) => (0) @ (2)
 							for (int i_0 = 0; i_0 <= 0; i_0 += 2)
@@ -347,14 +347,14 @@ ap_fixed<32, 18, (ap_q_mode) 5, (ap_o_mode)3, 0> layer7_out[1])
 		sprintf(tvout_layer7_out_0_V, "[[transaction]] %d\n", AESL_transaction);
 		aesl_fh.write(AUTOTB_TVOUT_layer7_out_0_V, tvout_layer7_out_0_V);
 
-		sc_bv<32>* layer7_out_0_V_tvout_wrapc_buffer = new sc_bv<32>[1];
+		sc_bv<18>* layer7_out_0_V_tvout_wrapc_buffer = new sc_bv<18>[1];
 
 		// RTL Name: layer7_out_0_V
 		{
-			// bitslice(31, 0)
+			// bitslice(17, 0)
 			{
 				int hls_map_index = 0;
-				// celement: layer7_out.V(31, 0)
+				// celement: layer7_out.V(17, 0)
 				{
 					// carray: (0) => (0) @ (2)
 					for (int i_0 = 0; i_0 <= 0; i_0 += 2)
@@ -367,9 +367,9 @@ ap_fixed<32, 18, (ap_q_mode) 5, (ap_o_mode)3, 0> layer7_out[1])
 						// input_type_conversion : (layer7_out[i_0]).range().to_string(SC_BIN).c_str()
 						if (&(layer7_out[0]) != NULL) // check the null address if the c port is array or others
 						{
-							sc_lv<32> layer7_out_V_tmp_mem;
+							sc_lv<18> layer7_out_V_tmp_mem;
 							layer7_out_V_tmp_mem = (layer7_out[i_0]).range().to_string(SC_BIN).c_str();
-							layer7_out_0_V_tvout_wrapc_buffer[hls_map_index].range(31, 0) = layer7_out_V_tmp_mem.range(31, 0);
+							layer7_out_0_V_tvout_wrapc_buffer[hls_map_index].range(17, 0) = layer7_out_V_tmp_mem.range(17, 0);
                                  	       hls_map_index++;
 						}
 					}

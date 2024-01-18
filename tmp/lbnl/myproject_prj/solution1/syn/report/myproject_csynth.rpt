@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'myproject'
 ================================================================
-* Date:           Tue Oct 31 15:29:33 2023
+* Date:           Wed Nov 15 11:41:52 2023
 
 * Version:        2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)
 * Project:        myproject_prj
@@ -20,7 +20,7 @@
     +--------+-------+----------+------------+
     |  Clock | Target| Estimated| Uncertainty|
     +--------+-------+----------+------------+
-    |ap_clk  |   5.00|     4.108|        0.62|
+    |ap_clk  |   5.00|     4.135|        0.62|
     +--------+-------+----------+------------+
 
 + Latency (clock cycles): 
@@ -29,22 +29,22 @@
     |  Latency  |  Interval | Pipeline |
     | min | max | min | max |   Type   |
     +-----+-----+-----+-----+----------+
-    |   23|   23|    1|    1| function |
+    |   11|   11|    1|    1| function |
     +-----+-----+-----+-----+----------+
 
     + Detail: 
         * Instance: 
-        +---------------------------------------------------------------------------------+-----------------------------------------------------------------------+-----+-----+-----+-----+----------+
-        |                                                                                 |                                                                       |  Latency  |  Interval | Pipeline |
-        |                                     Instance                                    |                                 Module                                | min | max | min | max |   Type   |
-        +---------------------------------------------------------------------------------+-----------------------------------------------------------------------+-----+-----+-----+-----+----------+
-        |grp_dense_latency_ap_fixed_ap_fixed_32_18_5_3_0_config4_0_0_0_0_0_fu_55          |dense_latency_ap_fixed_ap_fixed_32_18_5_3_0_config4_0_0_0_0_0          |    5|    5|    1|    1| function |
-        |grp_dense_latency_ap_fixed_ap_fixed_32_18_5_3_0_config2_0_0_0_0_0_0_0_0_0_fu_67  |dense_latency_ap_fixed_ap_fixed_32_18_5_3_0_config2_0_0_0_0_0_0_0_0_0  |    3|    3|    1|    1| function |
-        |grp_dense_latency_ap_fixed_32_18_5_3_0_ap_fixed_32_18_5_3_0_config6_0_0_fu_73    |dense_latency_ap_fixed_32_18_5_3_0_ap_fixed_32_18_5_3_0_config6_0_0    |    4|    4|    1|    1| function |
-        |call_ret1_relu_ap_fixed_32_18_5_3_0_ap_fixed_32_18_5_3_0_relu_config3_s_fu_81    |relu_ap_fixed_32_18_5_3_0_ap_fixed_32_18_5_3_0_relu_config3_s          |    0|    0|    1|    1| function |
-        |grp_sigmoid_ap_fixed_32_18_5_3_0_ap_fixed_32_18_5_3_0_sigmoid_config7_s_fu_93    |sigmoid_ap_fixed_32_18_5_3_0_ap_fixed_32_18_5_3_0_sigmoid_config7_s    |    3|    3|    1|    1| function |
-        |call_ret3_relu_ap_fixed_32_18_5_3_0_ap_fixed_32_18_5_3_0_relu_config5_s_fu_100   |relu_ap_fixed_32_18_5_3_0_ap_fixed_32_18_5_3_0_relu_config5_s          |    0|    0|    1|    1| function |
-        +---------------------------------------------------------------------------------+-----------------------------------------------------------------------+-----+-----+-----+-----+----------+
+        +--------------------------------------------------------------------------------+----------------------------------------------------------------------+-----+-----+-----+-----+----------+
+        |                                                                                |                                                                      |  Latency  |  Interval | Pipeline |
+        |                                    Instance                                    |                                Module                                | min | max | min | max |   Type   |
+        +--------------------------------------------------------------------------------+----------------------------------------------------------------------+-----+-----+-----+-----+----------+
+        |grp_dense_latency_ap_fixed_ap_fixed_18_4_5_3_0_config4_0_0_0_0_0_fu_55          |dense_latency_ap_fixed_ap_fixed_18_4_5_3_0_config4_0_0_0_0_0          |    2|    2|    1|    1| function |
+        |grp_dense_latency_ap_fixed_ap_fixed_18_4_5_3_0_config2_0_0_0_0_0_0_0_0_0_fu_67  |dense_latency_ap_fixed_ap_fixed_18_4_5_3_0_config2_0_0_0_0_0_0_0_0_0  |    1|    1|    1|    1| function |
+        |call_ret1_relu_ap_fixed_18_4_5_3_0_ap_fixed_18_4_5_3_0_relu_config3_s_fu_73     |relu_ap_fixed_18_4_5_3_0_ap_fixed_18_4_5_3_0_relu_config3_s           |    0|    0|    1|    1| function |
+        |grp_dense_latency_ap_fixed_18_4_5_3_0_ap_fixed_18_4_5_3_0_config6_0_0_fu_85     |dense_latency_ap_fixed_18_4_5_3_0_ap_fixed_18_4_5_3_0_config6_0_0     |    1|    1|    1|    1| function |
+        |call_ret3_relu_ap_fixed_18_4_5_3_0_ap_fixed_18_4_5_3_0_relu_config5_s_fu_93     |relu_ap_fixed_18_4_5_3_0_ap_fixed_18_4_5_3_0_relu_config5_s           |    0|    0|    1|    1| function |
+        |grp_sigmoid_ap_fixed_18_4_5_3_0_ap_fixed_18_4_5_3_0_sigmoid_config7_s_fu_101    |sigmoid_ap_fixed_18_4_5_3_0_ap_fixed_18_4_5_3_0_sigmoid_config7_s     |    2|    2|    1|    1| function |
+        +--------------------------------------------------------------------------------+----------------------------------------------------------------------+-----+-----+-----+-----+----------+
 
         * Loop: 
         N/A
@@ -61,32 +61,32 @@
 |DSP              |        -|      -|       -|       -|
 |Expression       |        -|      -|       0|       6|
 |FIFO             |        -|      -|       -|       -|
-|Instance         |        1|    102|   11733|    5268|
+|Instance         |        1|     51|    1441|    1987|
 |Memory           |        -|      -|       -|       -|
 |Multiplexer      |        -|      -|       -|      36|
-|Register         |        -|      -|     890|       -|
+|Register         |        -|      -|     384|       -|
 +-----------------+---------+-------+--------+--------+
-|Total            |        1|    102|   12623|    5310|
+|Total            |        1|     51|    1825|    2029|
 +-----------------+---------+-------+--------+--------+
 |Available        |     2060|   2800|  607200|  303600|
 +-----------------+---------+-------+--------+--------+
-|Utilization (%)  |    ~0   |      3|       2|       1|
+|Utilization (%)  |    ~0   |      1|   ~0   |   ~0   |
 +-----------------+---------+-------+--------+--------+
 
 + Detail: 
     * Instance: 
-    +---------------------------------------------------------------------------------+-----------------------------------------------------------------------+---------+-------+------+------+
-    |                                     Instance                                    |                                 Module                                | BRAM_18K| DSP48E|  FF  |  LUT |
-    +---------------------------------------------------------------------------------+-----------------------------------------------------------------------+---------+-------+------+------+
-    |grp_dense_latency_ap_fixed_32_18_5_3_0_ap_fixed_32_18_5_3_0_config6_0_0_fu_73    |dense_latency_ap_fixed_32_18_5_3_0_ap_fixed_32_18_5_3_0_config6_0_0    |        0|      8|  1049|   333|
-    |grp_dense_latency_ap_fixed_ap_fixed_32_18_5_3_0_config2_0_0_0_0_0_0_0_0_0_fu_67  |dense_latency_ap_fixed_ap_fixed_32_18_5_3_0_config2_0_0_0_0_0_0_0_0_0  |        0|     32|  3485|  1381|
-    |grp_dense_latency_ap_fixed_ap_fixed_32_18_5_3_0_config4_0_0_0_0_0_fu_55          |dense_latency_ap_fixed_ap_fixed_32_18_5_3_0_config4_0_0_0_0_0          |        0|     62|  7160|  2731|
-    |call_ret1_relu_ap_fixed_32_18_5_3_0_ap_fixed_32_18_5_3_0_relu_config3_s_fu_81    |relu_ap_fixed_32_18_5_3_0_ap_fixed_32_18_5_3_0_relu_config3_s          |        0|      0|     0|   392|
-    |call_ret3_relu_ap_fixed_32_18_5_3_0_ap_fixed_32_18_5_3_0_relu_config5_s_fu_100   |relu_ap_fixed_32_18_5_3_0_ap_fixed_32_18_5_3_0_relu_config5_s          |        0|      0|     0|   196|
-    |grp_sigmoid_ap_fixed_32_18_5_3_0_ap_fixed_32_18_5_3_0_sigmoid_config7_s_fu_93    |sigmoid_ap_fixed_32_18_5_3_0_ap_fixed_32_18_5_3_0_sigmoid_config7_s    |        1|      0|    39|   235|
-    +---------------------------------------------------------------------------------+-----------------------------------------------------------------------+---------+-------+------+------+
-    |Total                                                                            |                                                                       |        1|    102| 11733|  5268|
-    +---------------------------------------------------------------------------------+-----------------------------------------------------------------------+---------+-------+------+------+
+    +--------------------------------------------------------------------------------+----------------------------------------------------------------------+---------+-------+-----+-----+
+    |                                    Instance                                    |                                Module                                | BRAM_18K| DSP48E|  FF | LUT |
+    +--------------------------------------------------------------------------------+----------------------------------------------------------------------+---------+-------+-----+-----+
+    |grp_dense_latency_ap_fixed_18_4_5_3_0_ap_fixed_18_4_5_3_0_config6_0_0_fu_85     |dense_latency_ap_fixed_18_4_5_3_0_ap_fixed_18_4_5_3_0_config6_0_0     |        0|      4|   91|  105|
+    |grp_dense_latency_ap_fixed_ap_fixed_18_4_5_3_0_config2_0_0_0_0_0_0_0_0_0_fu_67  |dense_latency_ap_fixed_ap_fixed_18_4_5_3_0_config2_0_0_0_0_0_0_0_0_0  |        0|     16|  433|  456|
+    |grp_dense_latency_ap_fixed_ap_fixed_18_4_5_3_0_config4_0_0_0_0_0_fu_55          |dense_latency_ap_fixed_ap_fixed_18_4_5_3_0_config4_0_0_0_0_0          |        0|     31|  904|  890|
+    |call_ret1_relu_ap_fixed_18_4_5_3_0_ap_fixed_18_4_5_3_0_relu_config3_s_fu_73     |relu_ap_fixed_18_4_5_3_0_ap_fixed_18_4_5_3_0_relu_config3_s           |        0|      0|    0|  280|
+    |call_ret3_relu_ap_fixed_18_4_5_3_0_ap_fixed_18_4_5_3_0_relu_config5_s_fu_93     |relu_ap_fixed_18_4_5_3_0_ap_fixed_18_4_5_3_0_relu_config5_s           |        0|      0|    0|  140|
+    |grp_sigmoid_ap_fixed_18_4_5_3_0_ap_fixed_18_4_5_3_0_sigmoid_config7_s_fu_101    |sigmoid_ap_fixed_18_4_5_3_0_ap_fixed_18_4_5_3_0_sigmoid_config7_s     |        1|      0|   13|  116|
+    +--------------------------------------------------------------------------------+----------------------------------------------------------------------+---------+-------+-----+-----+
+    |Total                                                                           |                                                                      |        1|     51| 1441| 1987|
+    +--------------------------------------------------------------------------------+----------------------------------------------------------------------+---------+-------+-----+-----+
 
     * DSP48: 
     N/A
@@ -121,64 +121,44 @@
     +-------------------------+----+-----------+-----+-----------+
 
     * Register: 
-    +--------------------------------------------------------------------------------------------+----+----+-----+-----------+
-    |                                            Name                                            | FF | LUT| Bits| Const Bits|
-    +--------------------------------------------------------------------------------------------+----+----+-----+-----------+
-    |ap_CS_fsm                                                                                   |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter1                                                                     |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter10                                                                    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter11                                                                    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter12                                                                    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter13                                                                    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter14                                                                    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter15                                                                    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter16                                                                    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter17                                                                    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter18                                                                    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter19                                                                    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter2                                                                     |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter20                                                                    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter21                                                                    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter22                                                                    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter23                                                                    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter3                                                                     |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter4                                                                     |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter5                                                                     |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter6                                                                     |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter7                                                                     |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter8                                                                     |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter9                                                                     |   1|   0|    1|          0|
-    |grp_sigmoid_ap_fixed_32_18_5_3_0_ap_fixed_32_18_5_3_0_sigmoid_config7_s_fu_93_ap_start_reg  |   1|   0|    1|          0|
-    |input_2_V_ap_vld_preg                                                                       |   1|   0|    1|          0|
-    |input_2_V_preg                                                                              |  64|   0|   64|          0|
-    |layer2_out_0_V_reg_214                                                                      |  32|   0|   32|          0|
-    |layer2_out_1_V_reg_219                                                                      |  32|   0|   32|          0|
-    |layer2_out_2_V_reg_224                                                                      |  32|   0|   32|          0|
-    |layer2_out_3_V_reg_229                                                                      |  32|   0|   32|          0|
-    |layer2_out_4_V_reg_234                                                                      |  32|   0|   32|          0|
-    |layer2_out_5_V_reg_239                                                                      |  32|   0|   32|          0|
-    |layer2_out_6_V_reg_244                                                                      |  32|   0|   32|          0|
-    |layer2_out_7_V_reg_249                                                                      |  32|   0|   32|          0|
-    |layer3_out_0_V_reg_254                                                                      |  32|   0|   32|          0|
-    |layer3_out_1_V_reg_259                                                                      |  32|   0|   32|          0|
-    |layer3_out_2_V_reg_264                                                                      |  32|   0|   32|          0|
-    |layer3_out_3_V_reg_269                                                                      |  32|   0|   32|          0|
-    |layer3_out_4_V_reg_274                                                                      |  32|   0|   32|          0|
-    |layer3_out_5_V_reg_279                                                                      |  32|   0|   32|          0|
-    |layer3_out_6_V_reg_284                                                                      |  32|   0|   32|          0|
-    |layer3_out_7_V_reg_289                                                                      |  32|   0|   32|          0|
-    |layer4_out_0_V_reg_294                                                                      |  32|   0|   32|          0|
-    |layer4_out_1_V_reg_299                                                                      |  32|   0|   32|          0|
-    |layer4_out_2_V_reg_304                                                                      |  32|   0|   32|          0|
-    |layer4_out_3_V_reg_309                                                                      |  32|   0|   32|          0|
-    |layer5_out_0_V_reg_314                                                                      |  32|   0|   32|          0|
-    |layer5_out_1_V_reg_319                                                                      |  32|   0|   32|          0|
-    |layer5_out_2_V_reg_324                                                                      |  32|   0|   32|          0|
-    |layer5_out_3_V_reg_329                                                                      |  32|   0|   32|          0|
-    |layer6_out_0_V_reg_334                                                                      |  32|   0|   32|          0|
-    +--------------------------------------------------------------------------------------------+----+----+-----+-----------+
-    |Total                                                                                       | 890|   0|  890|          0|
-    +--------------------------------------------------------------------------------------------+----+----+-----+-----------+
+    +-------------------------------------------------------------------------------------------+----+----+-----+-----------+
+    |                                            Name                                           | FF | LUT| Bits| Const Bits|
+    +-------------------------------------------------------------------------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                                                                                  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter1                                                                    |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter10                                                                   |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter11                                                                   |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter2                                                                    |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter3                                                                    |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter4                                                                    |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter5                                                                    |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter6                                                                    |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter7                                                                    |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter8                                                                    |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter9                                                                    |   1|   0|    1|          0|
+    |grp_sigmoid_ap_fixed_18_4_5_3_0_ap_fixed_18_4_5_3_0_sigmoid_config7_s_fu_101_ap_start_reg  |   1|   0|    1|          0|
+    |input_2_V_ap_vld_preg                                                                      |   1|   0|    1|          0|
+    |input_2_V_preg                                                                             |  64|   0|   64|          0|
+    |layer3_out_0_V_reg_217                                                                     |  18|   0|   18|          0|
+    |layer3_out_1_V_reg_222                                                                     |  18|   0|   18|          0|
+    |layer3_out_2_V_reg_227                                                                     |  18|   0|   18|          0|
+    |layer3_out_3_V_reg_232                                                                     |  18|   0|   18|          0|
+    |layer3_out_4_V_reg_237                                                                     |  18|   0|   18|          0|
+    |layer3_out_5_V_reg_242                                                                     |  18|   0|   18|          0|
+    |layer3_out_6_V_reg_247                                                                     |  18|   0|   18|          0|
+    |layer3_out_7_V_reg_252                                                                     |  18|   0|   18|          0|
+    |layer4_out_0_V_reg_257                                                                     |  18|   0|   18|          0|
+    |layer4_out_1_V_reg_262                                                                     |  18|   0|   18|          0|
+    |layer4_out_2_V_reg_267                                                                     |  18|   0|   18|          0|
+    |layer4_out_3_V_reg_272                                                                     |  18|   0|   18|          0|
+    |layer5_out_0_V_reg_277                                                                     |  18|   0|   18|          0|
+    |layer5_out_1_V_reg_282                                                                     |  18|   0|   18|          0|
+    |layer5_out_2_V_reg_287                                                                     |  18|   0|   18|          0|
+    |layer5_out_3_V_reg_292                                                                     |  18|   0|   18|          0|
+    |layer6_out_0_V_reg_297                                                                     |  18|   0|   18|          0|
+    +-------------------------------------------------------------------------------------------+----+----+-----+-----------+
+    |Total                                                                                      | 384|   0|  384|          0|
+    +-------------------------------------------------------------------------------------------+----+----+-----+-----------+
 
 
 
@@ -197,7 +177,7 @@
 |ap_ready               | out |    1| ap_ctrl_hs |    myproject   | return value |
 |input_2_V_ap_vld       |  in |    1|   ap_vld   |    input_2_V   |    pointer   |
 |input_2_V              |  in |   64|   ap_vld   |    input_2_V   |    pointer   |
-|layer7_out_0_V         | out |   32|   ap_vld   | layer7_out_0_V |    pointer   |
+|layer7_out_0_V         | out |   18|   ap_vld   | layer7_out_0_V |    pointer   |
 |layer7_out_0_V_ap_vld  | out |    1|   ap_vld   | layer7_out_0_V |    pointer   |
 +-----------------------+-----+-----+------------+----------------+--------------+
 

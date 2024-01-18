@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Messages>
+	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_631" tag="SCHEDULE" content="Option &apos;relax_ii_for_timing&apos; is enabled, will increase II to preserve clock frequency constraints."/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1312" tag="" content="Analyzing design file &apos;firmware/myproject.cpp&apos; ..."/>
+	<Message severity="ERROR" prefix="[HLS 200-70]" key="HLS_70_1512" tag="" content="#pragma HLS INTERFACE ap_none"/>
+	<Message severity="ERROR" prefix="[HLS 200-70]" key="HLS_70_1513" tag="" content="Required option &apos;port&apos; may be missing."/>
+	<Message severity="ERROR" prefix="[HLS 200-70]" key="HLS_70_1565" tag="" content="&apos;#pragma HLS INTERFACE ap_none&apos; is not a valid pragma."/>
+	<Message severity="INFO" prefix="[Common 17-206]" key="HLS_150_1932" tag="" content="Exiting vivado_hls at Wed Jan 17 16:08:41 2024..."/>
+</Messages>

@@ -56,7 +56,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>18</bitwidth>
 				</Value>
 				<direction>1</direction>
 				<if_type>0</if_type>
@@ -123,7 +123,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>256</bitwidth>
+					<bitwidth>144</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -136,7 +136,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>4.10</m_delay>
+				<m_delay>3.74</m_delay>
 				<m_topoIndex>2</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -158,7 +158,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>18</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -192,7 +192,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>18</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -226,7 +226,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>18</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -260,7 +260,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>18</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -294,7 +294,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>18</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -328,7 +328,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>18</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -362,7 +362,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>18</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -396,7 +396,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>18</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -444,7 +444,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>256</bitwidth>
+					<bitwidth>144</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>9</count>
@@ -464,7 +464,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>2.11</m_delay>
+				<m_delay>1.72</m_delay>
 				<m_topoIndex>11</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -500,7 +500,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>18</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -548,7 +548,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>18</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -596,7 +596,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>18</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -644,7 +644,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>18</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -692,7 +692,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>18</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -740,7 +740,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>18</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -788,7 +788,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>18</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -836,7 +836,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>18</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -861,7 +861,7 @@
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
 						<fileDirectory>/home/neelvora/Projects/Quantum/tmp/lbnl</fileDirectory>
 						<lineNumber>41</lineNumber>
-						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;32, 18, 5, 3, 0&amp;gt;, ap_fixed&amp;lt;32, 18, 5, 3, 0&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;18, 4, 5, 3, 0&amp;gt;, ap_fixed&amp;lt;18, 4, 5, 3, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -880,7 +880,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>dense&amp;lt;ap_fixed&amp;lt;32, 18, 5, 3, 0&amp;gt;, ap_fixed&amp;lt;32, 18, 5, 3, 0&amp;gt;, config4&amp;gt;</second>
+											<second>dense&amp;lt;ap_fixed&amp;lt;18, 4, 5, 3, 0&amp;gt;, ap_fixed&amp;lt;18, 4, 5, 3, 0&amp;gt;, config4&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
@@ -891,7 +891,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>128</bitwidth>
+					<bitwidth>72</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>9</count>
@@ -911,7 +911,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>4.10</m_delay>
+				<m_delay>3.74</m_delay>
 				<m_topoIndex>20</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -924,7 +924,7 @@
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
 						<fileDirectory>/home/neelvora/Projects/Quantum/tmp/lbnl</fileDirectory>
 						<lineNumber>41</lineNumber>
-						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;32, 18, 5, 3, 0&amp;gt;, ap_fixed&amp;lt;32, 18, 5, 3, 0&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;18, 4, 5, 3, 0&amp;gt;, ap_fixed&amp;lt;18, 4, 5, 3, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -943,7 +943,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>dense&amp;lt;ap_fixed&amp;lt;32, 18, 5, 3, 0&amp;gt;, ap_fixed&amp;lt;32, 18, 5, 3, 0&amp;gt;, config4&amp;gt;</second>
+											<second>dense&amp;lt;ap_fixed&amp;lt;18, 4, 5, 3, 0&amp;gt;, ap_fixed&amp;lt;18, 4, 5, 3, 0&amp;gt;, config4&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
@@ -954,7 +954,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>18</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -979,7 +979,7 @@
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
 						<fileDirectory>/home/neelvora/Projects/Quantum/tmp/lbnl</fileDirectory>
 						<lineNumber>41</lineNumber>
-						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;32, 18, 5, 3, 0&amp;gt;, ap_fixed&amp;lt;32, 18, 5, 3, 0&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;18, 4, 5, 3, 0&amp;gt;, ap_fixed&amp;lt;18, 4, 5, 3, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -998,7 +998,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>dense&amp;lt;ap_fixed&amp;lt;32, 18, 5, 3, 0&amp;gt;, ap_fixed&amp;lt;32, 18, 5, 3, 0&amp;gt;, config4&amp;gt;</second>
+											<second>dense&amp;lt;ap_fixed&amp;lt;18, 4, 5, 3, 0&amp;gt;, ap_fixed&amp;lt;18, 4, 5, 3, 0&amp;gt;, config4&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
@@ -1009,7 +1009,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>18</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1034,7 +1034,7 @@
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
 						<fileDirectory>/home/neelvora/Projects/Quantum/tmp/lbnl</fileDirectory>
 						<lineNumber>41</lineNumber>
-						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;32, 18, 5, 3, 0&amp;gt;, ap_fixed&amp;lt;32, 18, 5, 3, 0&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;18, 4, 5, 3, 0&amp;gt;, ap_fixed&amp;lt;18, 4, 5, 3, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -1053,7 +1053,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>dense&amp;lt;ap_fixed&amp;lt;32, 18, 5, 3, 0&amp;gt;, ap_fixed&amp;lt;32, 18, 5, 3, 0&amp;gt;, config4&amp;gt;</second>
+											<second>dense&amp;lt;ap_fixed&amp;lt;18, 4, 5, 3, 0&amp;gt;, ap_fixed&amp;lt;18, 4, 5, 3, 0&amp;gt;, config4&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
@@ -1064,7 +1064,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>18</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1089,7 +1089,7 @@
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
 						<fileDirectory>/home/neelvora/Projects/Quantum/tmp/lbnl</fileDirectory>
 						<lineNumber>41</lineNumber>
-						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;32, 18, 5, 3, 0&amp;gt;, ap_fixed&amp;lt;32, 18, 5, 3, 0&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;18, 4, 5, 3, 0&amp;gt;, ap_fixed&amp;lt;18, 4, 5, 3, 0&amp;gt;, config4&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -1108,7 +1108,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>dense&amp;lt;ap_fixed&amp;lt;32, 18, 5, 3, 0&amp;gt;, ap_fixed&amp;lt;32, 18, 5, 3, 0&amp;gt;, config4&amp;gt;</second>
+											<second>dense&amp;lt;ap_fixed&amp;lt;18, 4, 5, 3, 0&amp;gt;, ap_fixed&amp;lt;18, 4, 5, 3, 0&amp;gt;, config4&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
@@ -1119,7 +1119,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>18</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1167,7 +1167,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>128</bitwidth>
+					<bitwidth>72</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>5</count>
@@ -1183,7 +1183,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>2.11</m_delay>
+				<m_delay>1.72</m_delay>
 				<m_topoIndex>25</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -1219,7 +1219,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>18</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1267,7 +1267,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>18</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1315,7 +1315,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>18</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1363,7 +1363,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>18</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1388,7 +1388,7 @@
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
 						<fileDirectory>/home/neelvora/Projects/Quantum/tmp/lbnl</fileDirectory>
 						<lineNumber>41</lineNumber>
-						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;32, 18, 5, 3, 0&amp;gt;, ap_fixed&amp;lt;32, 18, 5, 3, 0&amp;gt;, config6&amp;gt;</contextFuncName>
+						<contextFuncName>dense&amp;lt;ap_fixed&amp;lt;18, 4, 5, 3, 0&amp;gt;, ap_fixed&amp;lt;18, 4, 5, 3, 0&amp;gt;, config6&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -1407,7 +1407,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>dense&amp;lt;ap_fixed&amp;lt;32, 18, 5, 3, 0&amp;gt;, ap_fixed&amp;lt;32, 18, 5, 3, 0&amp;gt;, config6&amp;gt;</second>
+											<second>dense&amp;lt;ap_fixed&amp;lt;18, 4, 5, 3, 0&amp;gt;, ap_fixed&amp;lt;18, 4, 5, 3, 0&amp;gt;, config6&amp;gt;</second>
 										</first>
 										<second>41</second>
 									</item>
@@ -1418,7 +1418,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>18</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>5</count>
@@ -1434,7 +1434,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>4.10</m_delay>
+				<m_delay>3.74</m_delay>
 				<m_topoIndex>30</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -1484,7 +1484,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>3.65</m_delay>
+				<m_delay>3.76</m_delay>
 				<m_topoIndex>31</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -1520,7 +1520,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>18</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1642,7 +1642,7 @@
 					<Obj>
 						<type>2</type>
 						<id>48</id>
-						<name>dense_latency_ap_fixed_ap_fixed_32_18_5_3_0_config2_0_0_0_0_0_0_0_0_0</name>
+						<name>dense_latency_ap_fixed_ap_fixed_18_4_5_3_0_config2_0_0_0_0_0_0_0_0_0</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1655,17 +1655,17 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>256</bitwidth>
+					<bitwidth>144</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:dense_latency&lt;ap_fixed,ap_fixed&lt;32,18,5,3,0&gt;,config2&gt;.0.0.0.0.0.0.0.0.0&gt;</content>
+				<content>&lt;constant:dense_latency&lt;ap_fixed,ap_fixed&lt;18,4,5,3,0&gt;,config2&gt;.0.0.0.0.0.0.0.0.0&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_38">
 				<Value>
 					<Obj>
 						<type>2</type>
 						<id>59</id>
-						<name>relu_ap_fixed_32_18_5_3_0_ap_fixed_32_18_5_3_0_relu_config3_s</name>
+						<name>relu_ap_fixed_18_4_5_3_0_ap_fixed_18_4_5_3_0_relu_config3_s</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1678,17 +1678,17 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>256</bitwidth>
+					<bitwidth>144</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:relu&lt;ap_fixed&lt;32, 18, 5, 3, 0&gt;, ap_fixed&lt;32, 18, 5, 3, 0&gt;, relu_config3&gt;&gt;</content>
+				<content>&lt;constant:relu&lt;ap_fixed&lt;18, 4, 5, 3, 0&gt;, ap_fixed&lt;18, 4, 5, 3, 0&gt;, relu_config3&gt;&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_39">
 				<Value>
 					<Obj>
 						<type>2</type>
 						<id>77</id>
-						<name>dense_latency_ap_fixed_ap_fixed_32_18_5_3_0_config4_0_0_0_0_0</name>
+						<name>dense_latency_ap_fixed_ap_fixed_18_4_5_3_0_config4_0_0_0_0_0</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1701,17 +1701,17 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>128</bitwidth>
+					<bitwidth>72</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:dense_latency&lt;ap_fixed,ap_fixed&lt;32,18,5,3,0&gt;,config4&gt;.0.0.0.0.0&gt;</content>
+				<content>&lt;constant:dense_latency&lt;ap_fixed,ap_fixed&lt;18,4,5,3,0&gt;,config4&gt;.0.0.0.0.0&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_40">
 				<Value>
 					<Obj>
 						<type>2</type>
 						<id>91</id>
-						<name>relu_ap_fixed_32_18_5_3_0_ap_fixed_32_18_5_3_0_relu_config5_s</name>
+						<name>relu_ap_fixed_18_4_5_3_0_ap_fixed_18_4_5_3_0_relu_config5_s</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1724,17 +1724,17 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>128</bitwidth>
+					<bitwidth>72</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:relu&lt;ap_fixed&lt;32, 18, 5, 3, 0&gt;, ap_fixed&lt;32, 18, 5, 3, 0&gt;, relu_config5&gt;&gt;</content>
+				<content>&lt;constant:relu&lt;ap_fixed&lt;18, 4, 5, 3, 0&gt;, ap_fixed&lt;18, 4, 5, 3, 0&gt;, relu_config5&gt;&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_41">
 				<Value>
 					<Obj>
 						<type>2</type>
 						<id>101</id>
-						<name>dense_latency_ap_fixed_32_18_5_3_0_ap_fixed_32_18_5_3_0_config6_0_0</name>
+						<name>dense_latency_ap_fixed_18_4_5_3_0_ap_fixed_18_4_5_3_0_config6_0_0</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1747,17 +1747,17 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>32</bitwidth>
+					<bitwidth>18</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:dense_latency&lt;ap_fixed&lt;32, 18, 5, 3, 0&gt;, ap_fixed&lt;32, 18, 5, 3, 0&gt;, config6&gt;.0.0&gt;</content>
+				<content>&lt;constant:dense_latency&lt;ap_fixed&lt;18, 4, 5, 3, 0&gt;, ap_fixed&lt;18, 4, 5, 3, 0&gt;, config6&gt;.0.0&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_42">
 				<Value>
 					<Obj>
 						<type>2</type>
 						<id>107</id>
-						<name>sigmoid_ap_fixed_32_18_5_3_0_ap_fixed_32_18_5_3_0_sigmoid_config7_s</name>
+						<name>sigmoid_ap_fixed_18_4_5_3_0_ap_fixed_18_4_5_3_0_sigmoid_config7_s</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1773,7 +1773,7 @@
 					<bitwidth>14</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:sigmoid&lt;ap_fixed&lt;32, 18, 5, 3, 0&gt;, ap_fixed&lt;32, 18, 5, 3, 0&gt;, sigmoid_config7&gt;&gt;</content>
+				<content>&lt;constant:sigmoid&lt;ap_fixed&lt;18, 4, 5, 3, 0&gt;, ap_fixed&lt;18, 4, 5, 3, 0&gt;, sigmoid_config7&gt;&gt;</content>
 			</item>
 		</consts>
 		<blocks class_id="17" tracking_level="0" version="0">
@@ -2285,11 +2285,11 @@
 				<item>44</item>
 			</basic_blocks>
 			<mII>1</mII>
-			<mDepth>24</mDepth>
+			<mDepth>12</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>23</mMinLatency>
-			<mMaxLatency>23</mMaxLatency>
+			<mMinLatency>11</mMinLatency>
+			<mMaxLatency>11</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -2310,230 +2310,230 @@
 			<first>11</first>
 			<second>
 				<first>0</first>
-				<second>4</second>
+				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>12</first>
 			<second>
-				<first>4</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>13</first>
 			<second>
-				<first>4</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>14</first>
 			<second>
-				<first>4</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>15</first>
 			<second>
-				<first>4</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>16</first>
 			<second>
-				<first>4</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>17</first>
 			<second>
-				<first>4</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>18</first>
 			<second>
-				<first>4</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>19</first>
 			<second>
-				<first>4</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>20</first>
 			<second>
-				<first>5</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>21</first>
 			<second>
-				<first>5</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>22</first>
 			<second>
-				<first>5</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>23</first>
 			<second>
-				<first>5</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>24</first>
 			<second>
-				<first>5</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>25</first>
 			<second>
-				<first>5</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>26</first>
 			<second>
-				<first>5</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>27</first>
 			<second>
-				<first>5</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>28</first>
 			<second>
-				<first>5</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>29</first>
 			<second>
-				<first>6</first>
-				<second>6</second>
+				<first>2</first>
+				<second>3</second>
 			</second>
 		</item>
 		<item>
 			<first>30</first>
 			<second>
-				<first>12</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>31</first>
 			<second>
-				<first>12</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>32</first>
 			<second>
-				<first>12</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>33</first>
 			<second>
-				<first>12</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>34</first>
 			<second>
-				<first>13</first>
+				<first>6</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>35</first>
 			<second>
-				<first>13</first>
+				<first>6</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>36</first>
 			<second>
-				<first>13</first>
+				<first>6</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>37</first>
 			<second>
-				<first>13</first>
+				<first>6</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>38</first>
 			<second>
-				<first>13</first>
+				<first>6</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>39</first>
 			<second>
-				<first>14</first>
-				<second>5</second>
+				<first>7</first>
+				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>40</first>
 			<second>
-				<first>20</first>
-				<second>3</second>
+				<first>9</first>
+				<second>2</second>
 			</second>
 		</item>
 		<item>
 			<first>41</first>
 			<second>
-				<first>23</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>42</first>
 			<second>
-				<first>23</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>43</first>
 			<second>
-				<first>23</first>
+				<first>11</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -2545,7 +2545,7 @@
 			<first>44</first>
 			<second class_id="31" tracking_level="0" version="0">
 				<first>0</first>
-				<second>23</second>
+				<second>11</second>
 			</second>
 		</item>
 	</bblk_ent_exit>
@@ -2566,7 +2566,7 @@
 			<anchor_node>-1</anchor_node>
 			<region_type>8</region_type>
 			<interval>1</interval>
-			<pipe_depth>24</pipe_depth>
+			<pipe_depth>12</pipe_depth>
 		</item>
 	</regions>
 	<dp_fu_nodes class_id="34" tracking_level="0" version="0">

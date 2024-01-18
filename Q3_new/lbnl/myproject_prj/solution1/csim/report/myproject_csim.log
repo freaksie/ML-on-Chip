@@ -1,0 +1,58 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../myproject_test.cpp in debug mode
+   Compiling ../../../../firmware/myproject.cpp in debug mode
+   Generating csim.exe
+Processing input 0
+Predictions
+0 
+Quantized predictions
+0.0146484 
+Processing input 5000
+Predictions
+0 
+Quantized predictions
+0.0292969 
+Processing input 10000
+Predictions
+1 
+Quantized predictions
+0.996094 
+Processing input 15000
+Predictions
+1 
+Quantized predictions
+0.996094 
+Processing input 20000
+Predictions
+0 
+Quantized predictions
+0.0292969 
+Processing input 25000
+Predictions
+1 
+Quantized predictions
+0.996094 
+Processing input 30000
+Predictions
+1 
+Quantized predictions
+0.782227 
+Processing input 35000
+Predictions
+1 
+Quantized predictions
+0.982422 
+Processing input 40000
+Predictions
+0 
+Quantized predictions
+0.000976563 
+Processing input 45000
+Predictions
+0 
+Quantized predictions
+0.000976563 
+INFO: Saved inference results to file: tb_data/csim_results.log
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

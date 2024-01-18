@@ -1,16 +1,23 @@
 <AutoPilot:solution xmlns:AutoPilot="com.autoesl.autopilot.solution">
-    <name>
-        <value string="solution1"/>
-    </name>
-    <project>
-        <value string="myproject_prj"/>
-    </project>
     <config>
         <config_array_partition maximum_size="4096"/>
         <config_compile name_max_length="80" blackbox=""/>
         <config_schedule enable_dsp_full_reg="0"/>
         <schedule model="myproject"/>
     </config>
+    <Simulation argv="">
+        <SimFlow name="cosim" setup="true" dumpTrace="all" optimizeCompile="false" ldflags="" mflags="" compiledLibrary="" reduce_diskspace="false" toolName="auto">
+            <Rtl name="systemc" active="false"/>
+            <Rtl name="verilog" active="true"/>
+            <Rtl name="vhdl" active="false"/>
+        </SimFlow>
+    </Simulation>
+    <name>
+        <value string="solution1"/>
+    </name>
+    <project>
+        <value string="myproject_prj"/>
+    </project>
     <targetInfo>
         <TargetInfo value="xc7vx485t:ffg1761:-2"/>
     </targetInfo>
@@ -21,12 +28,5 @@
     <clockList>
         <clock default="false" name="default" uncertainty="12.5%" period="5"/>
     </clockList>
-    <Simulation argv="">
-        <SimFlow name="cosim" setup="true" dumpTrace="all" optimizeCompile="false" ldflags="" mflags="" compiledLibrary="" reduce_diskspace="false" toolName="auto">
-            <Rtl name="systemc" active="false"/>
-            <Rtl name="verilog" active="true"/>
-            <Rtl name="vhdl" active="false"/>
-        </SimFlow>
-    </Simulation>
 </AutoPilot:solution>
 
